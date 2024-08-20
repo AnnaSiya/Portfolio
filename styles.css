@@ -1,0 +1,808 @@
+             
+        body{
+     width: 1400px;
+    height: 7653px;
+    position: relative;
+       background-color: rgb(11, 12, 12);
+    font-weight: 400;
+           }
+
+      /*создание ПЕРВОЙ СЕКЦИИ*/
+  .sect1 {
+    width: 1400px;
+    height: 765px;
+    background-image: url('foto1.png');
+    position: relative;
+        background-size: cover;
+    background-repeat: no-repeat;
+
+   }
+
+   .sect1__p{ /*стиль для параграфа*/
+    width: 430px;
+    height: 103px;
+    margin-top: 334px;
+    margin-left: 125px;
+    position: absolute;
+    font-size: 20px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+      line-height: 26px;
+    letter-spacing: -0.03em;
+    color: #fff;
+  
+  
+   }
+
+   .sect1__h1{
+    width: 919px;
+    height: 205px;
+    margin-top: 466px;
+    margin-left: 119px;
+position: absolute;
+font-size: 80px;
+font-family: "IBM Plex Mono", monospace;
+line-height: 70px;
+letter-spacing: -0.03em;
+color: #1BFF07;
+
+   }
+
+   /*оболочка NAV панели*/
+   .nav-sect{
+   width: 1153px;
+   } 
+  /*стили для NAV секции */
+  .nav-container {
+    width: 1153px;
+     margin-top: 19px; /*отступ для NAV панели*/
+    height: 55px;
+    margin-left: 123px; 
+        border-radius: 100px;
+    display: inline-block;
+       vertical-align: top; /*задала расположение меню на панели nav*/
+  
+  }
+/*стили для логотипа карказ*/
+  .logotip{
+    width: 130px;
+    height: 39px;
+        background-color: #000;
+border-radius: 100px;
+margin-top: 8px;
+position: relative;
+  }
+
+  .logotip:hover{
+    background-color: aqua;
+  }
+  /*стили для заголовка логотипа*/
+.logotip__p{
+  width: 109px;
+  height: 55px;
+     font-size: 42.41px;
+    position: absolute;
+  line-height: 55.14px;
+  letter-spacing: -0.11em;
+  font-family: IBM Plex Mono;
+  font-weight: 700;
+  margin-left: 8px;
+  margin-top: -8px;
+text-align: center;
+   color: #1bff07;
+ font-family: "IBM Plex Mono", monospace;
+  text-transform: uppercase;
+  }
+
+  .logotip__p:hover{
+color: #ffff33;
+transform: scale(1.3);
+  }
+
+
+  /*NAV  секция для мень*/
+.nav{
+  text-decoration: none;
+margin-left: 630px;
+display: inline-block;
+
+vertical-align: top;
+margin-top: -30px;
+
+}
+
+.nav:hover{
+transform: scale(1.2);
+
+}
+
+
+/*стили для ссылок*/
+.nav__link {
+  width: 114px;
+  height: 23px;
+  font-size: 18px;
+  font-weight: 400;
+    line-height: 23.4px;
+        margin: 0 25px; /*отступы между пунктами меню */
+      font-family: "IBM Plex Mono", monospace;
+  letter-spacing: -0.03em;
+text-decoration: none;
+color: #fff;
+
+}
+
+.nav__link:hover {
+    color: #1BFF07;
+
+}
+
+/*класс для отступа margin права последней закладки*/
+.nav__link_ot{ 
+  margin: 0px;
+ }
+             
+ 
+ /*создание ВТОРОЙ секции*/
+.sect2{
+  width: 1155px;
+  height: 1995px;
+  margin-left: 120px;
+  margin-top: 915px;
+ 
+}
+
+.sect2__h1{
+  width: 1048px;
+  height: 72px;
+  color: #fff;
+  font-size: 55px;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 71.5px;
+  letter-spacing: -0.03em;
+
+}
+ 
+/*ПЕРВЫЙ БЛОК С ФОТО*/
+.sity {
+  display: block;
+  position: relative;
+width: 100%;
+margin-top: 40px;
+height: 550px;
+border-radius: 30px;
+background-image: url('foto2.png');
+background-repeat: no-repeat;
+background-position: 50%;
+background-size: cover;
+}
+
+/*стили для заголовкаH*/
+.sity__h2{
+  width: 401px;
+  height: 46px;
+     margin-left: 51px; /*отступ влево*/
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 45.5px;
+  letter-spacing: -0.03em;
+  padding-top: 408px; /*отсут вниз*/
+  color: #fff;
+}
+
+/*стили для параграфа*/
+.sity__p{
+  width: 506px;
+  height: 39px;
+  margin-left: 121px; /*отступ влево*/
+  font-size: 30px;
+  position: absolute;
+  line-height: 39px;
+  margin-left: 51px;
+  letter-spacing: -0.03em;
+  font-weight: 400;
+font-family: "IBM Plex Mono", monospace;
+color: #fff;
+padding-top: 50px; /* отступ вниз*/
+}
+
+
+/*ВТОРОЙ БЛОК С ФОТО*/
+.cart {
+  display: block;
+  position: relative;
+width: 100%;
+height: 550px;
+border-radius: 30px;
+background-image: url('foto3.png');
+background-repeat: no-repeat;
+background-position: 50%;
+background-size: cover;
+}
+
+/*стили для заголовкаH*/
+.cart__h2{
+  width: 401px;
+  height: 46px;
+     margin-left: 51px; /*отступ влево*/
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 45.5px;
+  letter-spacing: -0.03em;
+  padding-top: 408px; /*отсут вниз*/
+  color: #fff;
+}
+
+/*стили для параграфа*/
+.cart__p{
+  width: 506px;
+  height: 39px;
+  margin-left: 121px; /*отступ влево*/
+  font-size: 30px;
+  position: absolute;
+  line-height: 39px;
+  margin-left: 51px;
+  letter-spacing: -0.03em;
+  font-weight: 400;
+font-family: "IBM Plex Mono", monospace;
+color: #fff;
+padding-top: 50px; /* отступ вниз*/
+}
+
+/*ТРЕТИЙ БЛОК С ФОТО*/
+.oring {
+  display: block;
+  position: relative;
+width: 100%;
+height: 550px;
+border-radius: 30px;
+background-image: url('foto4.png');
+background-repeat: no-repeat;
+background-position: 50%;
+background-size: cover;
+}
+
+/*стили для заголовкаH*/
+.oring__h2{
+  width: 401px;
+  height: 46px;
+     margin-left: 51px; /*отступ влево*/
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 45.5px;
+  letter-spacing: -0.03em;
+  padding-top: 408px; /*отсут вниз*/
+  color: #fff;
+}
+
+/*стили для параграфа*/
+.oring__p{
+  width: 506px;
+  height: 39px;
+  margin-left: 121px; /*отступ влево*/
+  font-size: 30px;
+  position: absolute;
+  line-height: 39px;
+  margin-left: 51px;
+  letter-spacing: -0.03em;
+  font-weight: 400;
+font-family: "IBM Plex Mono", monospace;
+color: #fff;
+padding-top: 50px; /* отступ вниз*/
+}
+
+/*coздание кнопки*/
+
+/*стили для кнопки и текста*/
+.oring__but{
+  width: 582px;
+   height: 153px;
+  border-radius: 10px;
+  background-color:#1BFF07;
+ margin-top: 79px;
+ font-size: 30px;
+ font-weight: 400;
+ color: #000;
+ text-align: center;
+  font-family: "IBM Plex Mono", monospace;
+  line-height: 39px;
+  letter-spacing: -0.03em;
+}
+
+.oring__but:hover { /*изменение стилнй кнопки при наведении*/
+  border: 1px solid #1BFF07;
+  color: #1BFF07;
+  background-color: #000;
+  cursor: cell;  /*изменение курсора*/
+  }
+
+  /*создание ПЯТОЙ СЕКЦИИ*/
+  .blok{
+    width: 1048px;
+    height: 1377px;
+    display: block;
+    position: relative;
+       margin-left: 123px;
+    margin-top: 2400px;
+  }
+
+  .blok__h1{
+  color: #fff;
+  font-size: 55px;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-size: 55px;
+    position: relative;
+   line-height: 71.5px;
+  letter-spacing: -0.03em;
+  margin-top: 10px;
+  }
+
+  .blok__h1:after{ /*псевдоэлемент*/
+    content: '';
+    display: block;
+    position: absolute;
+    width: 45px;
+    height: 44px;
+    border-radius: 10px;
+    color: #1BFF07;
+    background-image: url('html.png');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    margin-top: 50px; /*отсуп вниз для псевдоэлемента*/
+  }
+
+  /*секция первая для блока с надписями*/
+  .sect3{
+width: 1048px;
+height: 177px;
+position: relative;
+margin-top: 100px;/*отступ секции вниз*/
+  }
+
+
+.sect3__h2{
+  width: 1048px;
+  height: 46px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 45.5px;
+  letter-spacing: -0.03em; 
+  color: #1BFF07;
+  margin-top: 15px; /*отступ снизу для блока*/
+}
+
+
+.sect3__p{
+  width: 778px;
+  height: 116px;
+   font-size: 22px;
+  position: absolute;
+  font-family: 400;
+  font-family: "IBM Plex Mono", monospace;
+  line-height: 28.6px;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.sect3__p:after{
+content: '';
+display: block;
+width: 45px;
+height: 44px;
+background-image: url('js.png');
+background-repeat: no-repeat;
+background-position: 50%;
+background-size: cover;
+margin-top: 70px; /*отступ для псевдоэлемента*/
+}
+
+
+/*создание 2-й секции для блока с надписями*/
+
+.sect4{
+  width: 1048px;
+  height: 206px;
+  position: relative;
+    margin-top: 120px;/*отступ секции вниз*/
+    }
+  
+  
+  .sect4__h2{
+    width: 1048px;
+    height: 46px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: -0.03em; 
+    color: #1BFF07;
+    margin-top: 15px; /*отступ снизу для блока*/
+  }
+  
+  .sect4__p{
+    width: 778px;
+    height: 145px;
+     font-size: 22px;
+    position: absolute;
+    font-family: 400;
+    font-family: "IBM Plex Mono", monospace;
+    line-height: 28.6px;
+    letter-spacing: -0.03em;
+    color: #fff;
+  }
+
+  .sect4__p:after{
+content: '';
+display: block;
+width: 45px;
+height: 44px;
+  }
+
+/*создание 3-й секции для блока с надписями*/
+
+.sect5{
+  width: 1048px;
+  height: 206px;
+  display: block;
+  position: relative;
+  margin-top: 140px;/*отступ секции вниз*/
+    }
+    
+    .sect5:before{ /*псевдоэлемент*/
+      content: '';
+      display: block;
+      position: absolute;
+      width: 45px;
+      height: 44px;
+      border-radius: 10px;
+      color: #1BFF07;
+      background-image: url('sotka.png');
+      background-repeat: no-repeat;
+      background-position: 100%;
+      background-size: cover;
+      margin-top: -60px; /*отсуп вниз для псевдоэлемента*/
+    }
+  
+  .sect5__h2{
+    width: 1048px;
+    height: 46px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: -0.03em; 
+    color: #1BFF07;
+  
+  }
+  
+  .sect5__p{
+    width: 778px;
+    height: 145px;
+     font-size: 22px;
+    position: absolute;
+    font-family: 400;
+    font-family: "IBM Plex Mono", monospace;
+    line-height: 28.6px;
+    letter-spacing: -0.03em;
+    color: #fff;
+  }
+
+/*создание 4-й секции для блока с надписями*/
+
+.sect6{
+  width: 778px;
+  height: 252px;
+  display: block;
+  position: relative;
+  margin-top: 105px;/*отступ секции вниз*/
+    
+}
+      
+  .sect6:before{ /*псевдоэлемент*/
+    content: '';
+    display: block;
+    position: absolute;
+    width: 45px;
+    height: 44px;
+    border-radius: 10px;
+    color: #1BFF07;
+    background-image: url('kol.png');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    margin-top: -60px; /*отсуп вниз для псевдоэлемента*/
+  }
+  .sect6__h2{
+    width: 651px;
+    height: 92px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: -0.03em; 
+    color: #1BFF07;
+ 
+  }
+
+  .sect6__p{
+    width: 778px;
+    height: 145px;
+     font-size: 22px;
+    position: absolute;
+    font-family: 400;
+    font-family: "IBM Plex Mono", monospace;
+    line-height: 28.6px;
+    letter-spacing: -0.03em;
+    color: #fff;
+  
+  }
+
+/*создание заголовка  на черном фоне*/
+.por{
+  width: 403px;
+  height: 92px;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 45.5px;
+  font-family: "IBM Plex Mono", monospace;
+  letter-spacing: -0.03em;
+  color: #fff;
+  margin-top: 100px; /*отступ вниз дял заголовка*/
+  margin-left: 123px;
+}
+
+/*создание секции первой для фото и H1, p*/
+
+.foto5{
+  width: 1150px;
+  height: 200px;
+  margin-top: 80px; /*отступ вниз для секции с фото*/
+  margin-left: 125px;
+ background-image: url('foto5.png');
+ border-radius: 30px;
+ background-position: 50%;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.black{
+width: 1150px;
+height: 283px;
+margin-left: 125px;
+border-radius: 30px;
+background-color: #191c19;
+
+}
+
+.black__h1{
+    width: 1048px;
+  height: 72px;
+  margin-left: 35px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 55px;
+   font-weight: 400;
+  line-height: 71.5px;
+  letter-spacing: -0.03em;
+  color: #1bff07;
+  margin-top: 20px;
+}
+
+.black__p {
+ width: 749px;
+ height: 116px;
+ margin-left: 35px;
+ font-size: 22px;
+ font-weight: 400;
+ font-family: "IBM Plex Mono", monospace;
+ letter-spacing: -0.03em;
+ line-height: 28.6px;
+ color: #fff;
+margin-top: 30px;
+}
+
+/*создание секции второй для фото и H1, p*/
+.foto6{
+  width: 1150px;
+  height: 200px;
+  margin-top: 80px;
+  margin-left: 125px;
+ background-image: url('foto6.png');
+ border-radius: 30px;
+ background-position: 50%;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+/*первый блок для заголовка и параграфа*/
+.black2{
+width: 1150px;
+height: 283px;
+margin-left: 125px;
+border-radius: 30px;
+
+background-color: #191c19;
+
+}
+
+.black2__h1{
+    width: 1048px;
+  height: 72px;
+  margin-left: 35px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 71.5px;
+  letter-spacing: -0.03em;
+  color: #1bff07;
+  margin-top: 20px;
+}
+
+.black2__p {
+ width: 749px;
+ height: 87px;
+ margin-left: 35px;
+ font-size: 22px;
+ font-weight: 400;
+ font-family: "IBM Plex Mono", monospace;
+ letter-spacing: -0.03em;
+ line-height: 28.6px;
+ color: #fff;
+margin-top: 30px;
+}
+
+/*создание секции третьей для фото и H1, p*/
+.foto7{
+  width: 1150px;
+  height: 200px;
+  margin-top: 130px;
+  margin-left: 125px;
+ background-image: url('foto7.png');
+ border-radius: 30px;
+ background-position: 50%;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+/*первый блок для заголовка и параграфа*/
+.black3{
+width: 1150px;
+height: 283px;
+margin-left: 125px;
+border-radius: 30px;
+
+background-color: #191c19;
+
+}
+
+.black3__h1{
+    width: 1048px;
+  height: 72px;
+  margin-left: 35px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 55px;
+    font-weight: 400;
+  line-height: 71.5px;
+  letter-spacing: -0.03em;
+  color: #1bff07;
+  margin-top: 20px;
+}
+
+.black3__p {
+ width: 724px;
+ height: 116px;
+ margin-left: 35px;
+ font-size: 22px;
+ font-weight: 400;
+ font-family: "IBM Plex Mono", monospace;
+ letter-spacing: -0.03em;
+ line-height: 28.6px;
+ color: #fff;
+ margin-top: 30px;
+}
+
+/*блок с ЧЕОЛОВ и КОМПОМ*/
+.comp{
+  width: 1400px;
+  height: 717px;
+  border-radius: 30px;
+  background-color: #191c19;
+   margin-top: 100px;
+}
+
+/*стили для фото КОМПА и ЧЕЛОВЕКА*/
+.comp__foto{
+  width: 730px;
+  height: 713px;
+  background-image: url('cuate.png');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  box-sizing: border-box;
+  background-size: cover;
+  margin-left: 667px;
+  border-radius: 60px;
+}
+
+.zag {
+  width: 340px;
+    height: 310px;
+display: block;
+        margin-left: 125px;
+  margin-top: -380px;
+
+}
+
+.zag__p{
+    width: 201px;
+  height: 60px;
+  font-size: 35px;
+    font-weight: 400;
+    margin-top:40px; /*отступ для H1 вниз*/
+  font-family: "IBM Plex Mono", monospace;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  color: #fff;
+  
+}
+
+.zag__h1{
+  width: 310px;
+  height: 60px;
+  font-size: 60px;
+  margin-top: 20px;
+  font-weight: 400;
+  font-family: "IBM Plex Mono", monospace;
+  line-height: 60px;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.zag__h1:hover{
+  color: #1BFF07;
+}
+
+.end {
+  width: 1400px;
+    height: 200px;
+  margin-top: 100px;
+background-color: #fff;
+ border-top-left-radius: 30px; /*границы для рамки слева*/
+ border-top-right-radius: 30px; /*граница для рамки справа*/
+}
+
+.end__h2{
+  width: 512px;
+  height: 30px;
+  margin-left: 125px;
+  font-size: 22px;
+
+    box-sizing: border-box;
+  line-height: 30.05px;
+  margin-bottom: 60px;
+  letter-spacing: -0.03em;
+  color: #000;
+  font-weight: 400;
+  font-family: "Manrope", sans-serif;
+padding-top: 60px;
+}
+
+.end__p{
+  width: 241px;
+  height: 27px;
+  margin-left: 125px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Manrope", sans-serif;
+  letter-spacing: -0.03em;
+  line-height: 27.32px;
+color:#000;
+opacity: 50%;
+}
